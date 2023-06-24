@@ -1,11 +1,24 @@
-// import Menu from './Menu';
+import Menu from './Menu';
+import { useState } from 'react';
 import hurstNewLogo from '../../assets/hurstNewLogo.png';
 import '../../styling/header.css';
 
 const Header = () => {
+
+    const [ menuOpen, setMenuOpen ] = useState(false);
+
+    const handleMenu = () => {
+        if (menuOpen === false){
+            setMenuOpen(true);
+        } else {
+            setMenuOpen(false);
+        }
+    }
+
     return(
         <header>
-            <button>
+            {menuOpen ? <Menu /> : null}
+            <button onClick={handleMenu}>
                 <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
                 <span class="sr-only">Menu</span>
             </button>
@@ -16,7 +29,6 @@ const Header = () => {
                 <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i><span class="sr-only">Cart Page</span>
                 <p>1</p>
             </div>
-            {/* <Menu /> */}
         </header>
     );
 };
