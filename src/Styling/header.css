@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2.5%;
+    /* flex-direction: row; */
+}
+
+.headerCartIcon {
+    height: fit-content;
+    display: flex;
+    position: relative;
+}
+
+.headerCartIcon p {
+    display: inline-block;
+    position: absolute;
+    right: -7px;
+    top: -20px;
+    background-color: #C87065;
+    font-size: 0.75rem;
+    color: #FFF;
+    border-radius: 35%;
+    padding: 2px;
+}

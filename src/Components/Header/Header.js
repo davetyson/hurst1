@@ -1,19 +1,19 @@
 // import Menu from './Menu';
 import hurstNewLogo from '../../assets/hurstNewLogo.png';
+import '../../styling/header.css';
 
 const Header = () => {
     return(
         <header>
-            <h1>Header</h1>
             <button>
-                <i class="fa fa-bars" aria-hidden="true"></i>
+                <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
                 <span class="sr-only">Menu</span>
             </button>
             <figure>
                 <img src={hurstNewLogo} alt="Tap On Cards store logo" />
             </figure>
-            <div>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i><span class="sr-only">Cart Page</span>
+            <div class="headerCartIcon">
+                <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i><span class="sr-only">Cart Page</span>
                 <p>1</p>
             </div>
             {/* <Menu /> */}
