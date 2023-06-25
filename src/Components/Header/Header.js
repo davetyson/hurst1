@@ -1,6 +1,6 @@
 import Menu from './Menu';
 import { useState } from 'react';
-import hurstNewLogo from '../../assets/hurstNewLogo.png';
+import furnitureStore from '../../assets/furnitureStore.png';
 import '../../styling/header.css';
 
 const Header = () => {
@@ -23,7 +23,7 @@ const Header = () => {
                 <span class="sr-only">Menu</span>
             </button>
             <figure>
-                <img src={hurstNewLogo} alt="Tap On Cards store logo" />
+                <img src={furnitureStore} alt="Tap On Cards store logo" />
             </figure>
             <div class="headerCartIcon">
                 <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i><span class="sr-only">Cart Page</span>

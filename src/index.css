@@ -23,6 +23,28 @@ body {
   /* dark font: #444 */
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+figure {
+  /* @include mq('tablet-wide'){
+      height: 284px;
+      width: 284px;
+  } */
+  margin: 0;
+  height: 142px;
+  width: 142px;
+  flex-shrink: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 button {
   color: #434343;
   background-color: transparent;

@@ -1,0 +1,101 @@
+.heroSlideshow {
+    height: 70vh;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5%;
+    background-color: #E8E9E6;
+    position: relative;
+    /* background-color: #E9ECEF; */
+    /* background-color: #F8F9FA */
+}
+
+.slideButtons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slideButtons button {
+    position: absolute;
+    top: 50%;
+    background-color: #FFF;
+}
+
+.slideButtons button::before {
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-right: 60px solid #FFF;
+}
+
+.slideButtonL {
+    left: 0;
+}
+
+.slideButtonR {
+    right: 0;
+}
+
+.heroCard {
+    display: flex;
+    justify-content: center;
+}
+
+.heroCard img {
+    height: 100%;
+}
+
+.heroCard figure,
+.heroCardTextBox {
+    width: calc(40% - 20px);
+    height: 65vh;
+}
+
+.heroCardTextBox {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.heroCardTextBox span {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 100%;
+}
+
+.heroCardTextBox h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    line-height: 2.9rem;
+}
+
+.heroCard button {
+    border: 2px solid #666;
+    border-radius: 3px;
+    background-color: #ADB5BD;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+.indicatorButtons {
+    height: 5vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+.slideIndicator {
+    border: 1px solid transparent;
+    border-radius: 50%;
+    height: 5px;
+    width: 5px;
+    background-color: #ADB5BD;
+    margin: 5px;
+}
+
+.currentSlide {
+    background-color: #C8A165;
+}
