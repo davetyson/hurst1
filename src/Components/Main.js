@@ -14,7 +14,6 @@ import Home from './Home/Home';
 const Main = () => {
     return(
         <main>
-            <h1>Main</h1>
             <Home />
             {/* <FourOhFour />
             <About />

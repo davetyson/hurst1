@@ -13,11 +13,13 @@ code {
 } */
 
 body {
-  background-color: #FFF;
+  background-color: #F8F9FA;
   color: #666;
   font-family: 'Lato', sans-serif;
   font-size: 125%;
   text-align: center;
+  padding: 0;
+  margin: 0;
   /* grey: #eee */
   /* header dark font: #434343 */
   /* dark font: #444 */
@@ -28,29 +30,42 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 0;
 }
 
+section {
+  margin: 0 auto;
+}
+
 figure {
   /* @include mq('tablet-wide'){
       height: 284px;
       width: 284px;
   } */
   margin: 0;
-  height: 142px;
-  width: 142px;
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
 }
 
 img {
   max-width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
+  margin: 0 auto;
 }
 
 button {
-  color: #434343;
-  background-color: transparent;
-  border: none;
+  border: 2px solid #666;
+  border-radius: 3px;
+  background-color: #F8F9FA;
+  padding: 0 20px;
 }
 
 i {
   color: #434343;
+}
+
+.newLabel {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 0 10px;
+  background-color: #C8A165;
+  color: #FFF;
+  font-size: 0.8rem;
 }

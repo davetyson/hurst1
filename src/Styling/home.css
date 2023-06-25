@@ -1,11 +1,16 @@
+/* Hero Slideshow styles */
+
 .heroSlideshow {
+    width: 100%;
+    background-color: #E8E9E6;
+    position: relative;
+}
+
+.heroSlideshowWrapper {
     height: 70vh;
     width: 80%;
     max-width: 1200px;
-    margin: 0 auto;
     padding: 5%;
-    background-color: #E8E9E6;
-    position: relative;
     /* background-color: #E9ECEF; */
     /* background-color: #F8F9FA */
 }
@@ -19,6 +24,7 @@
     position: absolute;
     top: 50%;
     background-color: #FFF;
+    border: none;
 }
 
 .slideButtons button::before {
@@ -42,13 +48,9 @@
     justify-content: center;
 }
 
-.heroCard img {
-    height: 100%;
-}
-
 .heroCard figure,
 .heroCardTextBox {
-    width: calc(40% - 20px);
+    width: calc(40% - 10px);
     height: 65vh;
 }
 
@@ -73,11 +75,8 @@
 }
 
 .heroCard button {
-    border: 2px solid #666;
-    border-radius: 3px;
-    background-color: #ADB5BD;
-    padding: 0 20px;
     text-transform: uppercase;
+    background-color: #ADB5BD;
 }
 
 .indicatorButtons {
@@ -98,4 +97,70 @@
 
 .currentSlide {
     background-color: #C8A165;
+}
+
+/* Featured Product styles */
+
+.featuredProductSection {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.featuredProductProduct,
+.featuredProductQuote {
+    width: calc(45% - 10px);
+    max-width: 350px;
+    margin: 20px;
+    padding: 0 20px;
+    background-color: #FFF;
+    box-shadow: 7px 5px 5px #E9ECEF;
+}
+
+.featuredProductQuote {
+    display: flex;
+    align-items: center;
+}
+
+.featuredProductProduct figure {
+    height: 170px;
+    margin: 20px auto;
+}
+
+.featuredProductQuote figure {
+    height: 220px;
+}
+
+.fpDetails {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.fpPrice {
+    font-size: 1rem;
+}
+
+.fpTitleCategory {
+    text-align: left;
+}
+
+.fpTitle {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.fpCategory {
+    font-size: 0.8rem;
+}
+
+.fpQuote {
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 30px;
+    width: 50%;
+}
+
+.fpQuote p {
+    color: #C8A165;
 }
