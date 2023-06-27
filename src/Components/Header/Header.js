@@ -20,14 +20,14 @@ const Header = () => {
             <div className="headerWrapper">
                 {menuOpen ? <Menu /> : null}
                 <button className="hamburger" onClick={handleMenu}>
-                    <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
-                    <span class="sr-only">Menu</span>
+                    <i className="fa fa-bars fa-lg" aria-hidden="true"></i>
+                    <span className="sr-only">Menu</span>
                 </button>
                 <figure>
                     <img src={furnitureStore} alt="Tap On Cards store logo" />
                 </figure>
                 <div class="headerCartIcon">
-                    <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i><span class="sr-only">Cart Page</span>
+                    <i className="fa fa-shopping-cart fa-lg" aria-hidden="true"></i><span className="sr-only">Cart Page</span>
                     <p>1</p>
                 </div>
             </div>

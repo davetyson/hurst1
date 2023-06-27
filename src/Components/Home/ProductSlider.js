@@ -2,10 +2,11 @@ import ProductPreview from '../Modular/ProductPreview';
 
 const ProductSlider = () => {
     return(
-        <>
-            <h1>ProductSlider</h1>
+        <section className="productsSliderSection">
+            <h2>Featured Products</h2>
+            <div className="underline"></div>
             <ProductPreview />
-        </>
+        </section>
     );
 };
 
