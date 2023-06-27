@@ -70,17 +70,26 @@ i {
   color: #434343;
 }
 
-.newLabel {
+.newLabel,
+.saleLabel {
   border: 1px solid transparent;
   border-radius: 4px;
   padding: 0 10px;
-  background-color: #C8A165;
   color: #FFF;
   font-size: 0.8rem;
+  width: fit-content;
+}
+
+.newLabel {
+  background-color: #C8A165;
+}
+
+.saleLabel {
+  background-color: #C87065;
 }
 
 .underline {
   width: 50px;
   border-bottom: 3px solid #C87065;
-  margin: 10px auto 0 auto;
+  margin: 10px auto 20px auto;
 }

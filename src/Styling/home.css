@@ -169,6 +169,23 @@
 
 /* Product Slider styles */
 
+.productSliderSection {
+    margin: 0 auto;
+}
+
+.productSlider {
+    display: flex;
+    justify-content: center;
+}
+
+.prevNext {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    padding: 5px;
+    margin: 0 10px;
+    letter-spacing: 0.3rem;
+}
+
 /* .productsSliderSection h2 {
     position: relative;
     display: inline-block;

@@ -5,7 +5,14 @@ const ProductSlider = () => {
         <section className="productsSliderSection">
             <h2>Featured Products</h2>
             <div className="underline"></div>
-            <ProductPreview />
+            <div className="productSlider">
+                <button className="prevNext">prev</button>
+                <ProductPreview />
+                <ProductPreview />
+                <ProductPreview />
+                <ProductPreview />
+                <button className="prevNext">next</button>
+            </div>
         </section>
     );
 };
