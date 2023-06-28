@@ -176,6 +176,7 @@
 .productSlider {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .prevNext {
@@ -184,20 +185,6 @@
     padding: 5px;
     margin: 0 10px;
     letter-spacing: 0.3rem;
+    border: 1px solid #ADB5BD;
+    color: #ADB5BD;
 }
-
-/* .productsSliderSection h2 {
-    position: relative;
-    display: inline-block;
-    width: auto;
-}
-
-.productSliderSection h2::before {
-    content: "";
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    left: 25%;
-    width: 50%;
-    border-bottom: 3px solid #C8A165;
-} */
