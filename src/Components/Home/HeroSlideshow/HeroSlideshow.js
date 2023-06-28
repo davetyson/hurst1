@@ -9,10 +9,10 @@ const HeroSlideshow = () => {
                     <button className="slideButtonR">R</button>
                 </div>
                 <HeroCard />
-                <div className="indicatorButtons">
-                    <div className="slideIndicator"></div>
-                    <div className="slideIndicator currentSlide"></div>
-                    <div className="slideIndicator"></div>
+                <div className="hsIndicatorButtons">
+                    <div className="hsSlideIndicator"></div>
+                    <div className="hsSlideIndicator hsCurrentSlide"></div>
+                    <div className="hsSlideIndicator"></div>
                 </div>
             </div>
         </section>

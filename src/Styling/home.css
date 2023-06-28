@@ -1,3 +1,23 @@
+/* Home Global styles */
+
+.hsIndicatorButtons,
+.dIndicatorButtons {
+    height: 5vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+.hsSlideIndicator,
+.dSlideIndicator {
+    border: 1px solid transparent;
+    border-radius: 50%;
+    height: 5px;
+    width: 5px;
+    background-color: #ADB5BD;
+    margin: 5px;
+}
+
 /* Hero Slideshow styles */
 
 .heroSlideshow {
@@ -80,23 +100,7 @@
     /* background-color: #ADB5BD; */
 }
 
-.indicatorButtons {
-    height: 5vh;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: flex-end;
-}
-
-.slideIndicator {
-    border: 1px solid transparent;
-    border-radius: 50%;
-    height: 5px;
-    width: 5px;
-    background-color: #ADB5BD;
-    margin: 5px;
-}
-
-.currentSlide {
+.hsCurrentSlide {
     background-color: #C8A165;
 }
 
@@ -187,4 +191,116 @@
     letter-spacing: 0.3rem;
     border: 1px solid #ADB5BD;
     color: #ADB5BD;
+}
+
+/* Discount Section styles */
+
+.discountSection img {
+    max-height: 200px;
+}
+
+.discountSection h2 {
+    color: #C87065;  
+    margin-left: 5px;
+}
+
+.discountWrapper {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.discountSlider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFF;
+    margin: 15px;
+    padding: 15px;
+    max-width: 60%;
+    min-height: 350px;
+    position: relative;
+}
+
+.discountSliderContent {
+    display: flex;
+    justify-content: center;
+}
+
+.discountTextBox {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-left: 20px;
+    color: #666;
+    max-width: 400px;
+}
+
+.discountP {
+    font-size: 0.8rem;
+}
+
+.discountLink {
+    color: #C87065;
+    text-transform: uppercase;
+}
+
+.dIndicatorButtons {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.dCurrentSlide {
+    background-color: #C87065;
+}
+
+.discountProductSection {
+    background-color: #FFF;
+    margin: 15px;
+    padding: 15px;
+    width: fit-content;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dProductTextBox {
+    margin: 10px;
+}
+
+.dProductTextBox p {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000;
+}
+
+.dSaleCounter {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.dCountBox {
+    margin: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dCountBoxCount,
+.dCountBoxLabel {
+    display: inline-block;
+}
+
+.dCountBoxCount {
+    border: 1px solid #C87065;
+    border-radius: 50%;
+    padding: 5px 8px;
+    width: fit-content;
 }
