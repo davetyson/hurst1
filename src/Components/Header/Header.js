@@ -26,7 +26,7 @@ const Header = () => {
                 <figure>
                     <img src={furnitureStore} alt="Tap On Cards store logo" />
                 </figure>
-                <div class="headerCartIcon">
+                <div className="headerCartIcon">
                     <i className="fa fa-shopping-cart fa-lg" aria-hidden="true"></i><span className="sr-only">Cart Page</span>
                     <p>1</p>
                 </div>

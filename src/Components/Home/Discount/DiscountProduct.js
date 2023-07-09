@@ -12,15 +12,21 @@ const DiscountProduct = () => {
             </div>
             <div className="dSaleCounter">
                 <div className="dCountBox">
-                    <p className="dCountBoxCount">0</p>
+                    <div className="dCountBoxCountContain">
+                        <p className="dCountBoxCount">0</p>
+                    </div>
                     <p className="dCountBoxLabel">Days</p>
                 </div>
                 <div className="dCountBox">
-                    <p className="dCountBoxCount">0</p>
+                    <div className="dCountBoxCountContain">
+                        <p className="dCountBoxCount">0</p>
+                    </div>
                     <p className="dCountBoxLabel">Hour</p>
                 </div>
                 <div className="dCountBox">
-                    <p className="dCountBoxCount">00</p>
+                    <div className="dCountBoxCountContain">
+                        <p className="dCountBoxCount">00</p>
+                    </div>
                     <p className="dCountBoxLabel">Min</p>
                 </div>
             </div>

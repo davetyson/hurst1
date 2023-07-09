@@ -196,7 +196,7 @@
 /* Discount Section styles */
 
 .discountSection img {
-    max-height: 200px;
+    height: 200px;
 }
 
 .discountSection h2 {
@@ -240,6 +240,7 @@
 
 .discountP {
     font-size: 0.8rem;
+    margin: 5px 10px;
 }
 
 .discountLink {
@@ -298,9 +299,32 @@
     display: inline-block;
 }
 
-.dCountBoxCount {
+.dCountBoxCountContain {
     border: 1px solid #C87065;
     border-radius: 50%;
-    padding: 5px 8px;
-    width: fit-content;
+    padding: 5px 0;
+    width: 35px;
+}
+
+/* Product List styles */
+
+.productListSection {
+    width: 90%;
+}
+
+.productListSection ul {
+    justify-content: center;
+}
+
+.productListSection ul li {
+    margin: 0 10px;
+}
+
+.plListBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plListBox .productPreviewBlock {
+    width: calc(25% - 60px);
 }
