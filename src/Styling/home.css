@@ -310,6 +310,7 @@
 
 .productListSection {
     width: 90%;
+    margin: 0 auto;
 }
 
 .productListSection ul {
@@ -323,6 +324,7 @@
 .plListBox {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .plListBox .productPreviewBlock {
